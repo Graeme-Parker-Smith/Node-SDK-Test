@@ -1,0 +1,4 @@
+.env
+.sh
+publish.sh
+node_modules
