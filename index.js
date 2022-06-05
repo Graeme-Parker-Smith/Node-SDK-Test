@@ -37,6 +37,7 @@ app.get("/getweather", function (request, responsefromWeb) {
 });
 
 app.get("/connecttoMC", function (request, responsefromWeb) {
+	console.log("variable: ", process.env.CLIENT_ID);
   var conData = {
     client_id: process.env.CLIENT_ID,
     client_secret: process.env.CLIENT_SECRET,
